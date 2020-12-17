@@ -11,15 +11,25 @@
 		7F3AD3B4258A7F92001D7285 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3AD3B3258A7F92001D7285 /* ContentView.swift */; };
 		7F3AD3B6258A7F99001D7285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3AD3B5258A7F99001D7285 /* Assets.xcassets */; };
 		7F3AD3B9258A7F99001D7285 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3AD3B8258A7F99001D7285 /* Preview Assets.xcassets */; };
+		7F3AD3C2258A88A7001D7285 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3AD3C1258A88A7001D7285 /* TimeCounter.swift */; };
+		7F3AD3C5258A8F99001D7285 /* RegisteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3AD3C4258A8F99001D7285 /* RegisteredView.swift */; };
+		7F3AD3CB258A938E001D7285 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3AD3CA258A938E001D7285 /* StarterView.swift */; };
+		7FB03F5B258C05680000D42A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB03F5A258C05680000D42A /* ButtonView.swift */; };
+		7FB03F60258C12400000D42A /* TopTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB03F5F258C12400000D42A /* TopTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7F3AD3AE258A7F92001D7285 /* fromLesson3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fromLesson3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3AD3AE258A7F92001D7285 /* HW3.3 UserDataAndCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW3.3 UserDataAndCounter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F3AD3B1258A7F92001D7285 /* fromLesson3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fromLesson3App.swift; sourceTree = "<group>"; };
 		7F3AD3B3258A7F92001D7285 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F3AD3B5258A7F99001D7285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F3AD3B8258A7F99001D7285 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F3AD3BA258A7F99001D7285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3AD3C1258A88A7001D7285 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		7F3AD3C4258A8F99001D7285 /* RegisteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredView.swift; sourceTree = "<group>"; };
+		7F3AD3CA258A938E001D7285 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		7FB03F5A258C05680000D42A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		7FB03F5F258C12400000D42A /* TopTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +54,7 @@
 		7F3AD3AF258A7F92001D7285 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F3AD3AE258A7F92001D7285 /* fromLesson3.app */,
+				7F3AD3AE258A7F92001D7285 /* HW3.3 UserDataAndCounter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				7F3AD3B1258A7F92001D7285 /* fromLesson3App.swift */,
-				7F3AD3B3258A7F92001D7285 /* ContentView.swift */,
+				7F3AD3CA258A938E001D7285 /* StarterView.swift */,
+				7F3AD3C4258A8F99001D7285 /* RegisteredView.swift */,
+				7FB03F62258C1A910000D42A /* ContentView */,
+				7F3AD3C1258A88A7001D7285 /* TimeCounter.swift */,
 				7F3AD3B5258A7F99001D7285 /* Assets.xcassets */,
 				7F3AD3BA258A7F99001D7285 /* Info.plist */,
 				7F3AD3B7258A7F99001D7285 /* Preview Content */,
@@ -69,12 +82,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7FB03F62258C1A910000D42A /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				7F3AD3B3258A7F92001D7285 /* ContentView.swift */,
+				7FB03F5A258C05680000D42A /* ButtonView.swift */,
+				7FB03F5F258C12400000D42A /* TopTextView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F3AD3AD258A7F92001D7285 /* fromLesson3 */ = {
+		7F3AD3AD258A7F92001D7285 /* HW3.3 UserDataAndCounter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F3AD3BD258A7F99001D7285 /* Build configuration list for PBXNativeTarget "fromLesson3" */;
+			buildConfigurationList = 7F3AD3BD258A7F99001D7285 /* Build configuration list for PBXNativeTarget "HW3.3 UserDataAndCounter" */;
 			buildPhases = (
 				7F3AD3AA258A7F92001D7285 /* Sources */,
 				7F3AD3AB258A7F92001D7285 /* Frameworks */,
@@ -84,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = fromLesson3;
+			name = "HW3.3 UserDataAndCounter";
 			productName = fromLesson3;
-			productReference = 7F3AD3AE258A7F92001D7285 /* fromLesson3.app */;
+			productReference = 7F3AD3AE258A7F92001D7285 /* HW3.3 UserDataAndCounter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7F3AD3A9258A7F92001D7285 /* Build configuration list for PBXProject "fromLesson3" */;
+			buildConfigurationList = 7F3AD3A9258A7F92001D7285 /* Build configuration list for PBXProject "HW3.3 UserDataAndCounter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F3AD3AD258A7F92001D7285 /* fromLesson3 */,
+				7F3AD3AD258A7F92001D7285 /* HW3.3 UserDataAndCounter */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F3AD3C5258A8F99001D7285 /* RegisteredView.swift in Sources */,
+				7F3AD3C2258A88A7001D7285 /* TimeCounter.swift in Sources */,
+				7FB03F5B258C05680000D42A /* ButtonView.swift in Sources */,
+				7FB03F60258C12400000D42A /* TopTextView.swift in Sources */,
+				7F3AD3CB258A938E001D7285 /* StarterView.swift in Sources */,
 				7F3AD3B4258A7F92001D7285 /* ContentView.swift in Sources */,
 				7F3AD3B2258A7F92001D7285 /* fromLesson3App.swift in Sources */,
 			);
@@ -277,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Tokarev-Dmitry.fromLesson3";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tokarev-Dmitry.HW3.3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,7 +327,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Tokarev-Dmitry.fromLesson3";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tokarev-Dmitry.HW3.3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F3AD3A9258A7F92001D7285 /* Build configuration list for PBXProject "fromLesson3" */ = {
+		7F3AD3A9258A7F92001D7285 /* Build configuration list for PBXProject "HW3.3 UserDataAndCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F3AD3BB258A7F99001D7285 /* Debug */,
@@ -318,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F3AD3BD258A7F99001D7285 /* Build configuration list for PBXNativeTarget "fromLesson3" */ = {
+		7F3AD3BD258A7F99001D7285 /* Build configuration list for PBXNativeTarget "HW3.3 UserDataAndCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F3AD3BE258A7F99001D7285 /* Debug */,

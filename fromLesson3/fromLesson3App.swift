@@ -11,7 +11,8 @@ import SwiftUI
 struct fromLesson3App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarterView()
+//                .environmentObject(UserManager())
         }
     }
 }
