@@ -12,7 +12,6 @@ struct fromLesson3App: App {
     var body: some Scene {
         WindowGroup {
             StarterView()
-//                .environmentObject(UserManager())
         }
     }
 }

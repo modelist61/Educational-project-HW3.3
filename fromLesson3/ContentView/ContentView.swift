@@ -13,6 +13,7 @@ struct ContentView: View {
     @AppStorage(CheckUser.status) var status = false
     
     var body: some View {
+        
         VStack {
             TopTextView(name: name, timer: timer.counter)
             Spacer()
@@ -25,10 +26,6 @@ struct ContentView: View {
                        color: .blue)
         }
     }
-//    private func eraseName() {
-//        status = false
-//        name = ""
-//    }
 }
 
 struct ContentView_Previews: PreviewProvider {

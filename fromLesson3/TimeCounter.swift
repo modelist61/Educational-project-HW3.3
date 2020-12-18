@@ -6,14 +6,12 @@
 //
 
 import Foundation
-import Combine //для ObservableObject импорт Combine для доступа к паттерну MVVM
+import Combine
 
 class TimeCounter: ObservableObject {
-    
-    //стандартный паблишер для Combine
-    //при обращении будет возвращать TimeCounter, Never - обработка ошибок
+
     let objectWillChange = PassthroughSubject<TimeCounter, Never>()
-    var counter = 3
+    var counter = 5
     var timer: Timer?
     var buttonTitle = "Start"
     
@@ -46,7 +44,7 @@ class TimeCounter: ObservableObject {
     
     private func buttonDDidTapped() {
         if buttonTitle == "Reset" {
-            counter = 3
+            counter = 5
             buttonTitle = "Start"
         } else {
             buttonTitle = "Wait..."

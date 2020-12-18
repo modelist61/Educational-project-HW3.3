@@ -14,8 +14,11 @@
 		7F3AD3C2258A88A7001D7285 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3AD3C1258A88A7001D7285 /* TimeCounter.swift */; };
 		7F3AD3C5258A8F99001D7285 /* RegisteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3AD3C4258A8F99001D7285 /* RegisteredView.swift */; };
 		7F3AD3CB258A938E001D7285 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3AD3CA258A938E001D7285 /* StarterView.swift */; };
+		7F658518258CA34800B323C5 /* RegistrationTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F658517258CA34800B323C5 /* RegistrationTF.swift */; };
 		7FB03F5B258C05680000D42A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB03F5A258C05680000D42A /* ButtonView.swift */; };
 		7FB03F60258C12400000D42A /* TopTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB03F5F258C12400000D42A /* TopTextView.swift */; };
+		7FDF73E9258CA4ED0065F7C5 /* RegistrationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF73E8258CA4ED0065F7C5 /* RegistrationButton.swift */; };
+		7FDF73EC258CA6DF0065F7C5 /* LetterCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF73EB258CA6DF0065F7C5 /* LetterCount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +31,11 @@
 		7F3AD3C1258A88A7001D7285 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 		7F3AD3C4258A8F99001D7285 /* RegisteredView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredView.swift; sourceTree = "<group>"; };
 		7F3AD3CA258A938E001D7285 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		7F658517258CA34800B323C5 /* RegistrationTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTF.swift; sourceTree = "<group>"; };
 		7FB03F5A258C05680000D42A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		7FB03F5F258C12400000D42A /* TopTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTextView.swift; sourceTree = "<group>"; };
+		7FDF73E8258CA4ED0065F7C5 /* RegistrationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationButton.swift; sourceTree = "<group>"; };
+		7FDF73EB258CA6DF0065F7C5 /* LetterCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +70,7 @@
 			children = (
 				7F3AD3B1258A7F92001D7285 /* fromLesson3App.swift */,
 				7F3AD3CA258A938E001D7285 /* StarterView.swift */,
-				7F3AD3C4258A8F99001D7285 /* RegisteredView.swift */,
+				7FDF73EE258CA8DE0065F7C5 /* RegisteredView */,
 				7FB03F62258C1A910000D42A /* ContentView */,
 				7F3AD3C1258A88A7001D7285 /* TimeCounter.swift */,
 				7F3AD3B5258A7F99001D7285 /* Assets.xcassets */,
@@ -90,6 +96,17 @@
 				7FB03F5F258C12400000D42A /* TopTextView.swift */,
 			);
 			path = ContentView;
+			sourceTree = "<group>";
+		};
+		7FDF73EE258CA8DE0065F7C5 /* RegisteredView */ = {
+			isa = PBXGroup;
+			children = (
+				7F3AD3C4258A8F99001D7285 /* RegisteredView.swift */,
+				7F658517258CA34800B323C5 /* RegistrationTF.swift */,
+				7FDF73E8258CA4ED0065F7C5 /* RegistrationButton.swift */,
+				7FDF73EB258CA6DF0065F7C5 /* LetterCount.swift */,
+			);
+			path = RegisteredView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,9 +182,12 @@
 				7F3AD3C2258A88A7001D7285 /* TimeCounter.swift in Sources */,
 				7FB03F5B258C05680000D42A /* ButtonView.swift in Sources */,
 				7FB03F60258C12400000D42A /* TopTextView.swift in Sources */,
+				7F658518258CA34800B323C5 /* RegistrationTF.swift in Sources */,
 				7F3AD3CB258A938E001D7285 /* StarterView.swift in Sources */,
 				7F3AD3B4258A7F92001D7285 /* ContentView.swift in Sources */,
+				7FDF73E9258CA4ED0065F7C5 /* RegistrationButton.swift in Sources */,
 				7F3AD3B2258A7F92001D7285 /* fromLesson3App.swift in Sources */,
+				7FDF73EC258CA6DF0065F7C5 /* LetterCount.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
