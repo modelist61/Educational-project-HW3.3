@@ -18,8 +18,6 @@ struct RegistrationTF: View {
             onCommit()
         }
             .multilineTextAlignment(.center)
-            .border(Color.black, width: 1)
-            .shadow(radius: 100)
     }
 }
 

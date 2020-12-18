@@ -16,16 +16,27 @@ struct RegisteredView: View {
     }
     
     var body: some View {
-        HStack(alignment: .firstTextBaseline) {
-            VStack {
+        VStack {
+            HStack {
                 RegistrationTF(name: $name,
                                onCommit: changeStatus)
-                RegistrationButton(action: changeStatus,
-                                   disable: regState)
+                LetterCount(count: name.count,
+                            color: regState ? .red : .green)
             }
-            LetterCount(count: name.count,
-                        color: regState ? .red : .green)
-        }.padding()
+            .padding(
+                EdgeInsets(top: 0,
+                           leading: 30,
+                           bottom: 0,
+                           trailing: 10)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 7)
+                    .stroke(Color.black, lineWidth: 1)
+            )
+            RegistrationButton(action: changeStatus,
+                               disable: regState)
+        }
+        .padding()
     }
     private func changeStatus() {
         if name.count >= 3 {
